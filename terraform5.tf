@@ -20,7 +20,7 @@ resource "aws_key_pair" "deployer" {
 }
 
 resource "aws_security_group" "allow_ssh" {
-  name = "allow_ssh"
+  name = "allow_all"
   description = "allow inbound ssh traffic"
 
   ingress {
